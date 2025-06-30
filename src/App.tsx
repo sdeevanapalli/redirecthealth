@@ -24,7 +24,7 @@ function App() {
       setRedirectTimer((prev) => {
         if (prev <= 1) {
           // Perform the redirect
-          window.location.href = 'https://medical-bot-frontend.vercel.app';
+          window.location.href = 'https://medicalbot-healthbridge.vercel.app';
           clearInterval(timer);
           return 0;
         }
